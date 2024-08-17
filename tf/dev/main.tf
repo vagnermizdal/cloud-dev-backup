@@ -4,7 +4,7 @@ provider "aws" {
 
 module "backup" {
   source = "../modules/backup"
-  lambda_backup_version = "v0.0.1"
+  lambda_backup_version = "v0.0.2"
   original_bucket = "dev-cloud-files-rkiqftjwreyoue"
   backup_bucket = "dev-cloud-files-rkiqftjwreyoue-bkp"
 }
